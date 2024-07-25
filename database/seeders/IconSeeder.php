@@ -14,22 +14,22 @@ class IconSeeder extends Seeder
     public function run(): void
     {
         DB::table('icons')->insert([
-            ['name' => 'HTML', 'icon_path' => 'img/iconos/html.png'],
-            ['name' => 'CSS', 'icon_path' => 'img/iconos/css.png'],
-            ['name' => 'JavaScript', 'icon_path' => 'img/iconos/javascript.png'],
-            ['name' => 'PHP', 'icon_path' => 'img/iconos/php.png'],
-            ['name' => 'Laravel', 'icon_path' => 'img/iconos/laravel.png'],
-            ['name' => 'Composer', 'icon_path' => 'img/iconos/composer.png'],
-            ['name' => 'Tailwind', 'icon_path' => 'img/iconos/tailwind.png'],
-            ['name' => 'StyledComponents', 'icon_path' => 'img/iconos/styled-components.png'],
-            ['name' => 'Sass', 'icon_path' => 'img/iconos/sass.png'],
-            ['name' => 'React', 'icon_path' => 'img/iconos/react.png'],
-            ['name' => 'NodeJS', 'icon_path' => 'img/iconos/nodejs.png'],
-            ['name' => 'Java', 'icon_path' => 'img/iconos/java.png'],
-            ['name' => 'Gulp', 'icon_path' => 'img/iconos/gulp.png'],
-            ['name' => 'GitHub', 'icon_path' => 'img/iconos/githubNombre.png'],
-            ['name' => 'Figma', 'icon_path' => 'img/iconos/figma.png'],
-            ['name' => 'MySQL', 'icon_path' => 'img/iconos/mysql.png'],
+            ['name' => 'HTML'],
+            ['name' => 'CSS'],
+            ['name' => 'JavaScript'],
+            ['name' => 'PHP'],
+            ['name' => 'Laravel'],
+            ['name' => 'Composer'],
+            ['name' => 'Tailwind'],
+            ['name' => 'StyledComponents'],
+            ['name' => 'Sass'],
+            ['name' => 'React'],
+            ['name' => 'NodeJS'],
+            ['name' => 'Java'],
+            ['name' => 'Gulp'],
+            ['name' => 'GitHub'],
+            ['name' => 'Figma'],
+            ['name' => 'MySQL'],
         ]);
     }
 }
