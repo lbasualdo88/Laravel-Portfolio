@@ -7,7 +7,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://ljb-portfolio.vercel.app'],
 
     'allowed_origins_patterns' => [],
 

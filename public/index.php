@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 
 // Permitir solicitudes solo desde un origen específico
 $allowedOrigins = [
-    'https://portfolio-ljb.netlify.app' // Agrega aquí tu frontend
+    'https://ljb-portfolio.vercel.app' // Agrega aquí tu frontend
 ];
 
 // Verificar el origen de la solicitud y agregar el encabezado CORS
@@ -15,7 +15,6 @@ if (isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $allowed
     header('Access-Control-Allow-Methods: GET, POST');
     header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization');
 }
-
 
 define('LARAVEL_START', microtime(true));
 

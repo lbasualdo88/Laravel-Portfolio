@@ -9,7 +9,7 @@
 
 <IfModule mod_headers.c>
     # Configuración de CORS
-    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Origin "https://ljb-portfolio.vercel.app"
     Header set Access-Control-Allow-Methods "GET, POST"
     Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
     Header set Access-Control-Allow-Credentials "true"
